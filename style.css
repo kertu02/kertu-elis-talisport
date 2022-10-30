@@ -1,0 +1,25 @@
+body {
+    
+    padding: 0;
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+    background: linear-gradient(#123, #111);
+
+}
+
+
+h1 {
+  color: rgb(150, 224, 243);
+  height: 100vh;
+  text-align: center;
+  font-size: 3rem;
+  line-height: 1.2;
+  margin: 0;
+  padding: 0;
+  flex-grow: 1;
+  z-index: 1
+    
+}
