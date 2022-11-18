@@ -1,0 +1,161 @@
+body {
+    
+    padding: 0;
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    overflow: scroll;
+    background-color: rgb(0, 0, 0);
+}
+
+a {
+  color: rgb(255, 255, 255);
+}
+
+h1 {
+  color: rgb(150, 224, 243);
+  height: 100vh;
+  text-align: center;
+  font-size: 3rem;
+  line-height: 1.2;
+  margin: 0;
+  padding: 0;
+  flex-grow: 1;
+  z-index: 1
+    
+}
+
+p {
+    margin-left: auto;
+    margin-right: auto;
+    width: 35em;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+.carousel {
+  margin: 0 auto;
+  overflow: hidden;
+  text-align: center;
+}
+
+.slides {
+  width: 100%;
+  display: flex;
+  overflow-x: scroll;
+  scrollbar-width: none;
+  scroll-snap-type: x mandatory;
+  scroll-behavior: smooth;
+}
+
+.slides::-webkit-scrollbar {
+  display: none;
+}
+
+.slides-item {
+  align-items: center;
+  border-radius: 10px;
+  display: flex;
+  flex-shrink: 0;
+  font-size: 100px;
+  height: 350px;
+  justify-content: center;
+  margin: 0 1rem;
+  position: relative;
+  scroll-snap-align: start;
+  transform: scale(1);
+  transform-origin: center center;
+  transition: transform .5s;
+  width: 100%;
+}
+
+.carousel__nav {
+  padding: 1rem .5rem;
+}
+
+.slider-nav {
+  align-items: center;
+  background-color: #ddd;
+  border-radius: 50%;
+  color: #000;
+  display: inline-flex;
+  height: 1rem;
+  justify-content: center;
+  padding: .5rem;
+  position: relative;
+  text-decoration: none;
+  width: 1rem;
+}
+
+.slider-nav:hover,
+.slider-nav:active {
+  background-color: rgb(130, 124, 124);
+  color: #fff;
+}
+
+.slide-1 {
+  background-image: url(pärnu.jpg);
+}
+
+.slide-2 {
+  background-image: url(nõmme.jpg);
+}
+
+.slide-3 {
+  background-image: url(otepää.jpg);
+}
+
+.slide-4 {
+  background-image: url(raekoja.jpg);
+}
+
+.slide-5 {
+  background-image: url(tartu_laululava.jpg);
+}
+
+.slide-6 {
+  background-image: url(rabalaukad.jpg);
+}
+
+.slide-7 {
+  background-image: url(kõrvemaa.JPG);
+}
+
+.slide-8 {
+  background-image: url(verevi.jpg);
+}
+
+.slide-9 {
+  background-image: url(haapsalu.png);
+}
+
+.slide-10 {
+  background-image: url(peipsi.jpg);
+}
+.carousel__skip-link {
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  top: auto;
+  width: 1px;
+}
+
+.carousel__skip-link:focus {
+  align-items: center;
+  background-color: #000;
+  color: #fff;
+  display: flex;
+  font-size: 30px;
+  height: 430px;
+  justify-content: center;
+  opacity: .8;
+  text-decoration: none;
+  width: 100%;
+  z-index: 1;
+}
