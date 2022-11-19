@@ -4,41 +4,26 @@ h1 {
 }
 
 html { 
-    background: url("https://www.sportlandmagazine.com/est/wp-content/uploads/2021/02/IMG_2092.jpg") no-repeat center center fixed; 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    /* https://css-tricks.com/perfect-full-page-background-image/ */
+    background: black
 }
-
-#overlay {
-    position: fixed; /* Sit on top of the page content */
-    display: none; /* Hidden by default */
-    width: 100%; /* Full width (cover the whole page) */
-    height: 100%; /* Full height (cover the whole page) */
-    top: 0; 
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background-color: rgba(0,0,0,0.5); /* Black background with opacity */
-    z-index: 2; /* Specify a stack order in case you're using a different order for other elements */
-    cursor: pointer; /* Add a pointer on hover */
-  }
-
-.lumelaud {
-    background-image: "https://i.pinimg.com/originals/21/cf/46/21cf46a4c272bbbad8653ad7a4f80f39.gif";
-    display: block;
-    width: 500px;
-    height: 500px;
+  
+.vertical-flex-container {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    margin: 250px;
+}
+  
+img {
+    padding: 30px;
 }
 
 /* lumesadu: https://elementor.com/blog/christmas-snow-effect/ */
 .snow-bg {
     position: relative;
- }
+}
  
- .snow-bg:after {
+.snow-bg:after {
     content: '';
     display: block;
     position: absolute;
@@ -50,10 +35,10 @@ html {
     pointer-events: none;
     background-image: url('https://library.elementor.com/resources/christmas-snow-effect/s1.png'), url('https://library.elementor.com/resources/christmas-snow-effect/s2.png'), url('https://library.elementor.com/resources/christmas-snow-effect/s3.png');
      animation: snow 10s linear infinite;
- }
+}
  
- @keyframes snow {
+@keyframes snow {
   0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
   50% {background-position: 500px 500px, 100px 200px, -100px 150px;}
-  100% {background-position: 500px 1000px, 200px 400px, -100px 300px;}
- } 
+  100% {background-position: 500px 1300px, 200px 400px, -100px 300px;}
+} 
