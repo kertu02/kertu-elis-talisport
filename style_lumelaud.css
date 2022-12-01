@@ -6,7 +6,7 @@ body{
     align-items: center;
     min-height: 100vh;
     width: 100%;
-    background-image: linear-gradient(rgba(44, 9, 30, 0.7),rgba(4, 9, 30, 0.7)), url(images/lumelaud.jpg);
+    background: linear-gradient(rgb(105, 191, 231), rgb(62, 42, 170));
     background-position: center;
     background-size: cover;
     position: relative;
@@ -32,15 +32,6 @@ body{
     
 }
 
-.surfhouse{
-    background-color: rgb(70, 11, 65);
-    border:none;
-    border-radius: 12px;
-    height: 36px;
-    width: 78px;
-
-}
-
 .buttext{
     color:white;
     text-decoration: none;
@@ -51,7 +42,7 @@ body{
     border: 1px white;
     width: 560px;
     height: 200px;
-    border: 15px solid rgb(44, 9, 30);
+    border: 10px solid rgb(62, 42, 170);
     padding: 70px;
     border-radius: 50px;
     text-align: center;
@@ -128,7 +119,7 @@ body{
 }
 
 .manual-btn{
-    border: 2px solid rgb(204, 66, 135) ;
+    border: 2px solid rgb(62, 42, 170);
     padding: 5px;
     border-radius: 10px;
     cursor: pointer;
@@ -141,7 +132,7 @@ body{
 }
 
 .manual-btn:hover{
-    background: rgb(204, 66, 135);
+    background: rgb(62, 42, 170);
 }
 
 #radio1:checked ~ .first{
@@ -169,7 +160,7 @@ body{
 }
 
 .navigation-auto div{
-    border: 2px solid rgb(204, 66, 135);
+    border: 2px solid rgb(62, 42, 170);
     padding: 5px;
     border-radius:10px;
     transition: 1s;
@@ -180,15 +171,15 @@ body{
 }
 
 #radio1:checked ~ .navigation-auto .auto-btn1{
-    background: rgb(204, 66, 135);
+    background: rgb(62, 42, 170);
 }
 
 #radio2:checked ~ .navigation-auto .auto-btn2{
-    background: rgb(204, 66, 135);
+    background: rgb(62, 42, 170);
 }
 
 #radio3:checked ~ .navigation-auto .auto-btn3{
-    background: rgb(204, 66, 135);
+    background: rgb(62, 42, 170);
 }
 
 .sliderid{
