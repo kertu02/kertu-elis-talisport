@@ -119,22 +119,21 @@ body {
   width: 100%;
   z-index: 1;
 }
-
-.slide-1 {background-image: url(file:///Users/kertukasesalu/Desktop/kertu-elis-talisport/pildid/nõmme.jpg);}
-.slide-2 {background-image: url(file:///Users/kertukasesalu/Desktop/kertu-elis-talisport/pildid/pärnu.jpg);}
-.slide-3 {background-image: url(file:///Users/kertukasesalu/Desktop/kertu-elis-talisport/pildid/otep.jpg);}
-.slide-4 {background-image: url(file:///Users/kertukasesalu/Desktop/kertu-elis-talisport/pildid/raek.jpg);}
-.slide-5 {background-image: url(file:///Users/kertukasesalu/Desktop/kertu-elis-talisport/pildid/tlaul.jpg);}
-.slide-6 {background-image: url(file:///Users/kertukasesalu/Desktop/kertu-elis-talisport/pildid/raba.jpg);}
-.slide-7 {background-image: url(file:///Users/kertukasesalu/Desktop/kertu-elis-talisport/pildid/korve.jpg);}
-.slide-8 {background-image: url(file:///Users/kertukasesalu/Desktop/kertu-elis-talisport/pildid/verevi.jpg);}
-.slide-9 {background-image: url(file:///Users/kertukasesalu/Desktop/kertu-elis-talisport/pildid/haapsalu.png);}
-.slide-10 {background-image: url(file:///Users/kertukasesalu/Desktop/kertu-elis-talisport/pildid/peipsi.jpeg);}
-.slide-11 {background-image: url(file:///Users/kertukasesalu/Desktop/kertu-elis-talisport/pildid/tavalised.jpeg);}
-.slide-12 {background-image: url(file:///Users/kertukasesalu/Desktop/kertu-elis-talisport/pildid/figure.jpg);}
-.slide-13 {background-image: url(file:///Users/kertukasesalu/Desktop/kertu-elis-talisport/pildid/hoki.webp);}
-.slide-14 {background-image: url(file:///Users/kertukasesalu/Desktop/kertu-elis-talisport/pildid/astri.jpg);}
-.slide-15 {background-image: url(file:///Users/kertukasesalu/Desktop/kertu-elis-talisport/pildid/haabersti.jpg);}
-.slide-16 {background-image: url(file:///Users/kertukasesalu/Desktop/kertu-elis-talisport/pildid/tondiraba.jpg);}
-.slide-17 {background-image: url(file:///Users/kertukasesalu/Desktop/kertu-elis-talisport/pildid/vilj.jpg);}
-.slide-18 {background-image: url(file:///Users/kertukasesalu/Desktop/kertu-elis-talisport/pildid/kohtla.jpg);}
+.slide-1 {background-image: url("pildid/nõmme.jpg")}
+.slide-2 {background-image: url("pildid/pärnu.jpg")}
+.slide-3 {background-image: url("pildid/otep.jpg")}
+.slide-4 {background-image: url("pildid/raek.jpg")}
+.slide-5 {background-image: url("pildid/tlaul.jpg")}
+.slide-6 {background-image: url("pildid/raba.jpg")}
+.slide-7 {background-image: url("pildid/korve.jpg")}
+.slide-8 {background-image: url("pildid/verevi.jpg")}
+.slide-9 {background-image: url("pildid/haapsalu.png")}
+.slide-10 {background-image: url("pildid/peipsi.jpeg")}
+.slide-11 {background-image: url("pildid/tavalised.jpeg")}
+.slide-12 {background-image: url("pildid/figure.jpg")}
+.slide-13 {background-image: url("pildid/hoki.webp")}
+.slide-14 {background-image: url("pildid/astri.jpg")}
+.slide-15 {background-image: url("pildid/haabersti.jpg")}
+.slide-16 {background-image: url("pildid/tondiraba.jpg")}
+.slide-17 {background-image: url("pildid/vilj.jpg")}
+.slide-18 {background-image: url("pildid/kohtla.jpg")}
