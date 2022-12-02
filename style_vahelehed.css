@@ -11,6 +11,7 @@ body {
 
 a {
   color: rgb(255, 255, 255);
+  text-decoration:none;
 }
 
 h1 {
@@ -137,3 +138,14 @@ body {
 .slide-16 {background-image: url("pildid/tondiraba.jpg")}
 .slide-17 {background-image: url("pildid/vilj.jpg")}
 .slide-18 {background-image: url("pildid/kohtla.jpg")}
+
+/* Elise pildid alates siit*/
+.slide-20{background-image: url("images/freeride.jpg")}
+.slide-21{background-image: url("images/freestyle.jpg")}
+.slide-22{background-image: url("images/alpine.jpg")}
+.slide-23{background-image: url("images/laud.jpg")}
+.slide-24{background-image: url("images/side.jpg")}
+.slide-25{background-image: url("images/saapad.jpeg")}
+.slide-26{background-image: url("images/kuutse.jpg")}
+.slide-27{background-image: url("images/munakas.jpg")}
+.slide-28{background-image: url("images/vimka.jpg")}

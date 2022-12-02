@@ -4,117 +4,72 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="style_lumelaud.css" />
+    <link rel="stylesheet" type="text/css" href="style_vahelehed.css" />
     <title>Lumelauasõit</title>
 </head>
 <body>
-   
-    <div class="content">
-   
-
-        <header class="h1">
-            <h1>
-                Lumelauasõit
-            </h1>
-        </header>
-
-
-        <div class="Lumelaua_kast">
-            <p class="kirjeldus">
-                Lumelauasõit on talispordiala, mille harrastajad kinnitavad jalgade külge puust või muust materjalist valmistatud laua ning sõidavad sellega mööda lumiseid mäekülgi alla. Mingil määral sarnaneb see mäesuusatamisele.
-                <br>
-                <br>
-                Lisainfot selle kohta leiad allpoolt.
-            </p>
-
-        </div>
-
-
-        <header class="h2">
-            <h2>
-                Sõidustiilid
-            </h2>
-        </header>
-
-
-            
-            <!--image slider start-->
-        
-        <div class="slider">
-            <div class="slides">
-                <!--button start-->
-                <input type="radio" name="radio-btn" id="radio1">
-                <input type="radio" name="radio-btn" id="radio2">
-                <input type="radio" name="radio-btn" id="radio3">
-                <!--button end-->
-                <!--images start-->
-                <div class="slide first">
-                    <div class="txt">
-                        <h1>Freeride</h1>
-                    </div>
-                    <img src="images/freeride.jpg" alt="">
-                </div>
-                <div class="slide">
-                    <div class="txt">
-                        <h1>Freeride</h1>
-                    </div>
-                    <img src="images/freestyle.jpg" alt="">
-                </div>
-                <div class="slide">
-                    <div class="txt">
-                        <h1>Freeride</h1>
-                    </div>
-                    <img src="images/alpine.jpg" alt="">
-                </div>
-                <!--images end-->
-                <!--automatic start-->
-                <div class="navigation-auto">
-                    <div class="auto-btn1"></div>    
-                    <div class="auto-btn2"></div>  
-                    <div class="auto-btn3"></div>               
-                </div>
-                <!--automatic end-->
-
-            </div>
-            <!--manual start-->
-            <div class="navigation-manual">
-                <label for="radio1" class="manual-btn"></label>
-                <label for="radio2" class="manual-btn"></label>
-                <label for="radio3" class="manual-btn"></label>
-            </div>
-            <!--manual end-->
-
-        </div>
-
-        <!--image slider end-->
-
-
-        <script type="text/javascript">
-            var counter = 1;
-            setInterval(function(){
-                document.getElementById("radio" + counter).checked = true;
-                counter++;
-                if(counter > 3){
-                    counter = 1;
-                }
-            }, 10000);
-
-
-        </script>
-
-        
-
-        <header class="h3">
-        <h3>
-            Varustus
-        </h3>
-        </header>                                    
+    <br>
+    <br>
+    <p>Tekst Lumelauasõidu kohta
+    <br> 
+    <br> 
+    Kolm erinevat sõidustiili
+    </p>
     
-        
+        <section class="carousel" aria-label="carousel" Tabindex="0">
+        <a class="carousel__skip-link" href="#skip-link">Skip the Carousel</a>
+        <div class="slides">
+            <div class="slides-item slide-20" id="slide-20" aria-label="slide 1 of 5" tabindex="0"><p style="color:rgb(255, 255, 255); text-shadow: 4px 4px #000000"><a href="https://www.youtube.com/watch?v=5zcCoPZ4XRo">FREERIDE</a></p></div>
+            <div class="slides-item slide-21" id="slide-21" aria-label="slide 2 of 5" tabindex="0"><p style="color:rgb(255, 255, 255); text-shadow: 4px 4px #000000"><a href="https://www.youtube.com/watch?v=KoHzXi7Usl8">FREESTYLE</a></p></div>
+            <div class="slides-item slide-22" id="slide-22" aria-label="slide 3 of 5" tabindex="0"><p style="color:rgb(255, 255, 255); text-shadow: 4px 4px #000000"><a href="https://www.youtube.com/watch?v=tBYgXayF0UQ">ALPINE</a></p></div>
+            
+        </div>
+        <div class="carousel__nav">
+            <a class="slider-nav" href="#slide-20" aria-label="Go to slide 1">1</a>
+            <a class="slider-nav" href="#slide-21" aria-label="Go to slide 2">2</a>
+            <a class="slider-nav" href="#slide-22" aria-label="Go to slide 3">3</a>
 
+        </div>
+        <div class="carousel__skip-message" id="skip-link" tabindex="0"></div>
+    </section>
 
-    </div>
-   
+    <p>varustus</p>
+        <br>
 
+    <section class="carousel" aria-label="carousel" Tabindex="0">
+        <a class="carousel__skip-link" href="#skip-link">Skip the Carousel</a>
+        <div class="slides">
+            <div class="slides-item slide-23" id="slide-23" aria-label="slide 1 of 5" tabindex="0"><p style="color:rgb(255, 255, 255); text-shadow: 4px 4px #000000"><a href="https://surfhouse.ee/snow/lumelaud/lumelauad">LUMELAUD</a></p></div>
+            <div class="slides-item slide-24" id="slide-24" aria-label="slide 2 of 5" tabindex="0"><p style="color:rgb(255, 255, 255); text-shadow: 4px 4px #000000"><a href="https://surfhouse.ee/lumi/lumelaud/">LUMELAUASIDEMED</a></p></div>
+            <div class="slides-item slide-25" id="slide-25" aria-label="slide 3 of 5" tabindex="0"><p style="color:rgb(255, 255, 255); text-shadow: 4px 4px #000000"><a href="https://surfhouse.ee/snow/lumelaud/lumelaua-saapad">LUMELAUASAAPAD</a></p></div>
+        </div>
+        <div class="carousel__nav">
+            <a class="slider-nav" href="#slide-23" aria-label="Go to slide 1">1</a>
+            <a class="slider-nav" href="#slide-24" aria-label="Go to slide 2">2</a>
+            <a class="slider-nav" href="#slide-25" aria-label="Go to slide 3">3</a>
+            
+        </div>
+        <div class="carousel__skip-message" id="skip-link" tabindex="0"></div>
+    </section>
+
+    <p>Eestis mõned kohad kus...</p>
+     <br>
+        <section class="carousel" aria-label="carousel" Tabindex="0">
+            <a class="carousel__skip-link" href="#skip-link">Skip the Carousel</a>
+            <div class="slides">
+                <div class="slides-item slide-26" id="slide-26" aria-label="slide 1 of 5" tabindex="0"><p style="color:rgb(255, 255, 255); text-shadow: 4px 4px #000000"><a href="https://www.kuutsemae.ee/kwp/">KUUTSEMÄE</a></p></div>
+                <div class="slides-item slide-27" id="slide-27" aria-label="slide 2 of 5" tabindex="0"><p style="color:rgb(255, 255, 255); text-shadow: 4px 4px #000000"><a href="https://www.munakas.ee/">MUNAKAS</a></p></div>
+                <div class="slides-item slide-28" id="slide-28" aria-label="slide 3 of 5" tabindex="0"><p style="color:rgb(255, 255, 255); text-shadow: 4px 4px #000000"><a href="https://www.vimkapark.ee/">VIMKA</a></p></div>
+            </div>
+            <div class="carousel__nav">
+                <a class="slider-nav" href="#slide-26" aria-label="Go to slide 1">1</a>
+                <a class="slider-nav" href="#slide-27" aria-label="Go to slide 2">2</a>
+                <a class="slider-nav" href="#slide-28" aria-label="Go to slide 3">3</a>
+            </div>
+            <div class="carousel__skip-message" id="skip-link" tabindex="0"></div>
+        </section>
+
+     
 </body>
+
 </html>
