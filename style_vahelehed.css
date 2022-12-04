@@ -120,26 +120,28 @@ body {
   width: 100%;
   z-index: 1;
 }
-.slide-1 {background-image: url("pildid/nõmme.jpg")}
-.slide-2 {background-image: url("pildid/pärnu.jpg")}
-.slide-3 {background-image: url("pildid/otep.jpg")}
-.slide-4 {background-image: url("pildid/raek.jpg")}
-.slide-5 {background-image: url("pildid/tlaul.jpg")}
-.slide-6 {background-image: url("pildid/raba.jpg")}
-.slide-7 {background-image: url("pildid/korve.jpg")}
-.slide-8 {background-image: url("pildid/verevi.jpg")}
-.slide-9 {background-image: url("pildid/haapsalu.png")}
-.slide-10 {background-image: url("pildid/peipsi.jpeg")}
-.slide-11 {background-image: url("pildid/tavalised.jpeg")}
-.slide-12 {background-image: url("pildid/figure.jpg")}
-.slide-13 {background-image: url("pildid/hoki.webp")}
-.slide-14 {background-image: url("pildid/astri.jpg")}
-.slide-15 {background-image: url("pildid/haabersti.jpg")}
-.slide-16 {background-image: url("pildid/tondiraba.jpg")}
-.slide-17 {background-image: url("pildid/vilj.jpg")}
-.slide-18 {background-image: url("pildid/kohtla.jpg")}
 
-/* Elise pildid alates siit*/
+/* uisutamise pildid*/
+.slide-1 {background-image: url("images/nõmme.jpg")}
+.slide-2 {background-image: url("images/pärnu.jpg")}
+.slide-3 {background-image: url("images/otep.jpg")}
+.slide-4 {background-image: url("images/raek.jpg")}
+.slide-5 {background-image: url("images/tlaul.jpg")}
+.slide-6 {background-image: url("images/raba.jpg")}
+.slide-7 {background-image: url("images/korve.jpg")}
+.slide-8 {background-image: url("images/verevi.jpg")}
+.slide-9 {background-image: url("images/haapsalu.png")}
+.slide-10 {background-image: url("images/peipsi.jpeg")}
+.slide-11 {background-image: url("images/tavalised.jpeg")}
+.slide-12 {background-image: url("images/figure.jpg")}
+.slide-13 {background-image: url("images/hoki.webp")}
+.slide-14 {background-image: url("images/astri.jpg")}
+.slide-15 {background-image: url("images/haabersti.jpg")}
+.slide-16 {background-image: url("images/tondiraba.jpg")}
+.slide-17 {background-image: url("images/vilj.jpg")}
+.slide-18 {background-image: url("images/kohtla.jpg")}
+
+/* lumelaua-ja suusa pildid*/
 .slide-20{background-image: url("images/freeride.jpg")}
 .slide-21{background-image: url("images/freestyle.jpg")}
 .slide-22{background-image: url("images/alpine.jpg")}
